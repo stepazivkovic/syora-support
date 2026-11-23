@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="it">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f8f5fc" />
+    <meta
+      name="description"
+      content="Assistenza SYORA: risposte alle domande più comuni e contatti per ricevere supporto."
+    />
+    <title>Assistenza SYORA</title>
+    <style>
+      :root {
+        color-scheme: light;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        color: #211b31;
+        background: #f8f5fc;
+      }
+      * { box-sizing: border-box; }
+      body { margin: 0; }
+      header {
+        padding: 28px max(24px, calc((100vw - 920px) / 2));
+        background: #fff;
+        border-bottom: 1px solid #eee8f5;
+      }
+      .brand { display: flex; align-items: center; gap: 12px; font-size: 22px; font-weight: 700; letter-spacing: .02em; }
+      .mark {
+        width: 38px; height: 38px; display: grid; place-items: center; border-radius: 12px;
+        color: white; font-size: 23px; font-weight: 700;
+        background: linear-gradient(140deg, #9b39f1, #087af4);
+      }
+      main { width: min(920px, calc(100% - 40px)); margin: 64px auto; }
+      .intro { margin-bottom: 32px; }
+      h1 { margin: 0 0 12px; font-size: clamp(34px, 6vw, 48px); letter-spacing: -.04em; }
+      .intro p { max-width: 650px; margin: 0; color: #625b6b; font-size: 18px; line-height: 1.6; }
+      .grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
+      article, .contact { padding: 24px; border: 1px solid #eee8f5; border-radius: 20px; background: #fff; }
+      h2 { margin: 0 0 10px; font-size: 19px; }
+      article p, .contact p { margin: 0; color: #625b6b; line-height: 1.6; }
+      .contact { margin-top: 20px; background: #f0e7fb; }
+      .contact a { display: inline-block; margin-top: 14px; color: #58358e; font-weight: 650; }
+      footer { padding: 24px; color: #746d7b; text-align: center; font-size: 14px; }
+      @media (max-width: 640px) {
+        main { margin: 40px auto; }
+        .grid { grid-template-columns: 1fr; }
+        article, .contact { padding: 20px; }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="brand"><span class="mark" aria-hidden="true">S</span><span>SYORA</span></div>
+    </header>
+    <main>
+      <section class="intro">
+        <h1>Come possiamo aiutarti?</h1>
+        <p>Qui trovi indicazioni per usare SYORA e risolvere i problemi più comuni. Per richieste specifiche puoi contattare il supporto.</p>
+      </section>
+      <section class="grid" aria-label="Domande frequenti">
+        <article>
+          <h2>Accesso al nucleo</h2>
+          <p>Verifica di aver inserito il codice personale corretto e che l’account sia ancora attivo. Se l’accesso non riesce, chiedi all’amministratore del nucleo di controllare il tuo account.</p>
+        </article>
+        <article>
+          <h2>Agenda e sincronizzazione</h2>
+          <p>Gli eventi condivisi sono visibili in base alle autorizzazioni e alle impostazioni di pubblicazione dell’agenda. Controlla la connessione e aggiorna la schermata per recuperare le modifiche più recenti.</p>
+        </article>
+        <article>
+          <h2>Notifiche</h2>
+          <p>Per ricevere le notifiche push, abilita le notifiche di SYORA nelle impostazioni del dispositivo. Le comunicazioni visibili dipendono dalle autorizzazioni del nucleo.</p>
+        </article>
+        <article>
+          <h2>Documenti e informazioni condivise</h2>
+          <p>Se non trovi una richiesta o un contenuto condiviso, verifica che il tuo account abbia l’autorizzazione necessaria e che il mittente abbia completato l’invio o la pubblicazione.</p>
+        </article>
+      </section>
+      <section class="contact">
+        <h2>Contatta l’assistenza</h2>
+        <p>Descrivi il problema e indica il modello del dispositivo e la versione dell’app. Non inviare password o codici di accesso.</p>
+        <a href="mailto:syora-timeapp@hotmail.com">syora-timeapp@hotmail.com</a>
+      </section>
+    </main>
+    <footer>SYORA · Supporto</footer>
+  </body>
+</html>
